@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kopi Farah: specialty coffee dari petani Bondowoso dan Dampit, disangrai batch kecil di Sidoarjo.">
+<title>Kopi Farah – Specialty Coffee Sidoarjo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand brand" href="#beranda">Kopi Farah</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Buka menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="#koleksi">Koleksi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cerita">Cerita</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pesan">Pesan</a></li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-gold btn-sm" href="#pesan">Pesan sekarang</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="beranda">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 order-2 order-lg-1">
+        <h1>Secangkir yang <em>tenang</em>, dari lereng ke meja Anda.</h1>
+        <p class="mt-4">Biji pilihan petani Bondowoso dan Dampit, disangrai dalam batch kecil di Sidoarjo setiap Senin.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#pesan" class="btn btn-gold">Pesan kopi</a>
+          <a href="#koleksi" class="btn btn-line">Lihat koleksi</a>
+        </div>
+      </div>
+      <div class="col-9 col-sm-7 col-lg-5 order-1 order-lg-2">
+        <div class="arch"><div><img class="fit" width="720" height="873" src="assets/img/hero.jpg" data-foto="hero" alt="Secangkir espresso di atas meja kayu"></div></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="koleksi">
+  <div class="container">
+    <h2 class="sec-title">Tiga kopi, tiga karakter</h2>
+    <div class="rule"></div>
+    <p class="mb-5">Kemasan 250 gram. Pilih tingkat sangrai sesuai cara Anda menyeduh.</p>
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="coffee">
+          <div class="ph"><img class="fit" loading="lazy" width="840" height="630" src="assets/img/arabika.jpg" data-foto="arabika" data-asli="https://images.pexels.com/photos/8912741/pexels-photo-8912741.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Biji kopi arabika sangrai terang"><span class="tag">Sangrai terang</span></div>
+          <div class="bd">
+            <h3>Arabika Ijen</h3>
+            <div class="origin">Bondowoso, 1.200 mdpl</div>
+            <div class="meter"><i class="on"></i><i></i><i></i><span class="ms-2">Ringan</span></div>
+            <p>Asam jeruk yang segar, aroma bunga melati, dan manis gula aren. Cocok untuk V60 dan manual brew.</p>
+            <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+              <span class="price">Rp 85.000</span>
+              <button class="btn btn-dark-line btn-sm pilih" data-nilai="Arabika Ijen">Pilih</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="coffee">
+          <div class="ph"><img class="fit" loading="lazy" width="840" height="630" src="assets/img/robusta.jpg" data-foto="robusta" data-asli="https://images.pexels.com/photos/19886786/pexels-photo-19886786.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Biji kopi robusta sangrai gelap"><span class="tag">Sangrai gelap</span></div>
+          <div class="bd">
+            <h3>Robusta Dampit</h3>
+            <div class="origin">Dampit, Malang, 700 mdpl</div>
+            <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><span class="ms-2">Pekat</span></div>
+            <p>Body tebal, cokelat pahit, dan jejak karamel gosong. Pas untuk kopi susu dan es kopi.</p>
+            <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+              <span class="price">Rp 60.000</span>
+              <button class="btn btn-dark-line btn-sm pilih" data-nilai="Robusta Dampit">Pilih</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mx-md-auto mx-lg-0">
+        <article class="coffee">
+          <div class="ph"><img class="fit" loading="lazy" width="840" height="630" src="assets/img/blend.jpg" data-foto="blend" data-asli="https://images.pexels.com/photos/4815954/pexels-photo-4815954.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Biji kopi blend sangrai medium"><span class="tag">Sangrai medium</span></div>
+          <div class="bd">
+            <h3>Blend Farah</h3>
+            <div class="origin">70% Arabika, 30% Robusta</div>
+            <div class="meter"><i class="on"></i><i class="on"></i><i></i><span class="ms-2">Seimbang</span></div>
+            <p>Hazelnut, cokelat susu, dan sedikit rempah. Seduhan harian yang nyaman dan tidak terlalu asam.</p>
+            <div class="d-flex justify-content-between align-items-center mt-auto pt-3">
+              <span class="price">Rp 70.000</span>
+              <button class="btn btn-dark-line btn-sm pilih" data-nilai="Blend Farah">Pilih</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cerita" class="about">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-md-6">
+        <h2 class="sec-title">Dari kebun langsung ke penyangraian</h2>
+        <div class="rule"></div>
+        <p>Kopi Farah bekerja sama dengan kelompok tani di Bondowoso dan Dampit. Kami membeli di atas harga pasar dan menyangrai dalam batch kecil, supaya rasa tetap konsisten dari kemasan pertama sampai terakhir.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-4 text-center">
+          <div class="col-4"><div class="stat">12</div><small>petani mitra</small></div>
+          <div class="col-4"><div class="stat">2 hari</div><small>sampai di Jawa Timur</small></div>
+          <div class="col-4"><div class="stat">7 hari</div><small>dari sangrai ke rumah</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pesan">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-lg-4">
+        <div class="panel">
+          <h3 class="display-6">Pesan kopi</h3>
+          <div class="rule"></div>
+          <p>Isi formulir, kami konfirmasi lewat email dalam 1 hari kerja.</p>
+          <p class="mb-0 small">Pembayaran setelah konfirmasi. Gratis ongkir untuk pembelian 3 pak atau lebih.</p>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="formbox">
+          <div id="sukses" class="alert alert-success" role="alert"></div>
+          <form id="formPesan" class="needs-validation row g-3" novalidate>
+            <div class="col-12">
+              <label for="nama" class="form-label">Nama lengkap</label>
+              <input type="text" class="form-control" id="nama" required minlength="3">
+              <div class="invalid-feedback">Nama wajib diisi, minimal 3 huruf.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+              <div class="invalid-feedback">Masukkan alamat email yang valid.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="telp" class="form-label">Nomor telepon</label>
+              <input type="tel" class="form-control" id="telp" required pattern="08[0-9]{8,11}" placeholder="08123456789">
+              <div class="invalid-feedback">Gunakan format 08xxxxxxxxxx (10–13 digit).</div>
+            </div>
+            <div class="col-md-8">
+              <label for="produk-pilih" class="form-label">Pilihan kopi</label>
+              <select class="form-select" id="produk-pilih" required>
+                <option value="">Pilih kopi…</option>
+                <option>Arabika Ijen</option>
+                <option>Robusta Dampit</option>
+                <option>Blend Farah</option>
+              </select>
+              <div class="invalid-feedback">Pilih salah satu kopi.</div>
+            </div>
+            <div class="col-md-4">
+              <label for="jumlah" class="form-label">Jumlah (pak)</label>
+              <input type="number" class="form-control" id="jumlah" min="1" max="20" value="1" required>
+              <div class="invalid-feedback">Isi 1 sampai 20.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label d-block">Tingkat gilingan</label>
+              <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="giling" id="g1" value="Biji utuh" required><label class="form-check-label" for="g1">Biji utuh</label></div>
+              <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="giling" id="g2" value="Kasar"><label class="form-check-label" for="g2">Kasar</label></div>
+              <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="giling" id="g3" value="Halus"><label class="form-check-label" for="g3">Halus</label></div>
+            </div>
+            <div class="col-md-6">
+              <label for="password" class="form-label">Password akun</label>
+              <input type="password" class="form-control" id="password" required minlength="8">
+              <div class="invalid-feedback">Password minimal 8 karakter.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="konfirmasi" class="form-label">Konfirmasi password</label>
+              <input type="password" class="form-control" id="konfirmasi" required>
+              <div class="invalid-feedback">Konfirmasi password tidak sama.</div>
+            </div>
+            <div class="col-12">
+              <label for="catatan" class="form-label">Catatan pengiriman (opsional)</label>
+              <textarea class="form-control" id="catatan" rows="3" maxlength="200"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="setuju" required>
+                <label class="form-check-label" for="setuju">Data yang saya isi sudah benar.</label>
+                <div class="invalid-feedback">Centang kotak ini sebelum mengirim.</div>
+              </div>
+            </div>
+            <div class="col-12"><button type="submit" class="btn btn-gold btn-lg w-100">Kirim pesanan</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span>© 2026 Kopi Farah, Sidoarjo</span>
+    <span>halo@kopifarah.example</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
